@@ -1,11 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - it is a program that print a line using (printf function)
+ * main - It is a program that prints the size of various types on the computer
  * Return: 0 (means success)
  */
-
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
 }
