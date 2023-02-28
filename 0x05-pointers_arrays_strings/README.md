@@ -18,4 +18,6 @@
 
 9-strcpy.c: Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 
+100-atoi.c: Write a function that convert a string to an integer.
 
+101-keygen.c: Create a program that generates random valid passwords for the program 101-crackme.
