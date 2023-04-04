@@ -8,12 +8,10 @@
  *
  * Return: The number of nodes in list.
  */
-
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t x = 0;
 	long int diff;
-
 	while (head)
 	{
 		diff = head - head->next;
