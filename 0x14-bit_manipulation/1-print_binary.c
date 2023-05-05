@@ -4,7 +4,7 @@
 /**
 * print_binary - a function that prints the binary
 *representation of a number.
-* @n: long integer
+* @y: long integer
 * Return: nothing
 **/
 
